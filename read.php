@@ -66,11 +66,12 @@ foreach ($drinks as $index => $drink) {
     <title>Document</title>
 
     <style>
-        table { 
+        table {
             border-collapse: collapse;
         }
 
-        th, td {
+        th,
+        td {
             border: 1px solid black;
             width: 150px;
             padding: 10px 0;
@@ -79,6 +80,8 @@ foreach ($drinks as $index => $drink) {
 </head>
 
 <body>
+
+    <?php include_once 'nav.php' ?>
 
     <h1>CRUD - Read</h1>
 
@@ -91,7 +94,7 @@ foreach ($drinks as $index => $drink) {
         </thead>
         <tbody>
             <!-- Généré par PHP -->
-            <?= $rows ?> 
+            <?= $rows ?>
         </tbody>
     </table>
 

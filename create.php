@@ -43,6 +43,8 @@ if (isset($_POST['createDrink'])) {
 
 <body>
 
+    <?php include_once 'nav.php' ?>
+
     <h1>CRUD - Create</h1>
 
     <form action="create.php" method="post">
